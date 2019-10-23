@@ -14,8 +14,8 @@ const breedDetailsFromFile = function(breed, callback) {
   //        Currently not returning anything from here, so this function returns undefined.
 }
 
-const bombay = breedDetailsFromFile('Bombay', (bombay) => {
-console.log('Return Value: ', bombay)
-});
+// const bombay = breedDetailsFromFile('Bombay', (bombay) => {
+// console.log('Return Value: ', bombay)
+// });
 
 module.exports = breedDetailsFromFile;
